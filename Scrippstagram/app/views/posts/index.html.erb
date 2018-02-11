@@ -1,1 +1,5 @@
-<h1>Scrippstagram</h1>
+<h2>Scrippstagram</h2>
+<%=@posts.each do |post| %>
+    <%= image_tag post.image.url(:medium) %>
+    <%= post.caption %>
+<% end %>
