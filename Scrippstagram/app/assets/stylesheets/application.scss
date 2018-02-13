@@ -15,21 +15,21 @@
  @import "bootstrap";
  
  body {
-  background-color: #fafafa;
+  background-color: whitesmoke;
   font-family: proxima-nova, 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 
 .navbar-brand {
   a {
-    color: #125688;
+    color: whitesmoke;
   }
 }
 
 .navbar-default {
-  background-color: #fff;
+  background-color: #326751ff;
   height: 54px;
   .navbar-nav li a {
-    color: #125688;
+    color: whitesmoke;
   }
 }
 
@@ -46,8 +46,9 @@
 }
 
 .post {
-  background-color: #fff;
-  border-color: #edeeee;
+  
+  background-color:whitesmoke;
+  border-color: grey;
   border-style: solid;
   border-radius: 3px;
   border-width: 1px;
