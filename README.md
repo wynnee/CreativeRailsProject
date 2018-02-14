@@ -12,10 +12,10 @@ Scripps students, alumni, and staff
 We will create a web application using html/css with the functionality to upload and caption images. Additionally, these posts can be updated, edited, and even deleted. Users will be able to view all images (posts) uploaded onto the web application.
 
 **Functionality**
-Our product allows users to post, edit, and delete photos and captions. To post a photo, a user can click on "New Photo" button and attach an image and caption and submit. To edit a photo, a user can click on the post and click edit. Similarly, to delete, a user simply needs to click on the photo and delete. Posts are displayed chronologically, with most recent on top.
+Our product allows users to post images and edit, delete, and caption the photos. To post a photo, a user can click on "New Photo" button and attach an image and type a caption then submit. To edit a photo, a user can click on the post and click edit beneath the image. Similarly, to delete, a user simply needs to click on the photo and delete. If a user wishes to cancel their edit, they can simply click the cancel button. Posts are displayed chronologically, with most recent on top.
 
 **Installation Steps:**
-To install, clone the git repo and run the command "bundle install" to install the extra gems added. 
+To install, clone the git repo and run the command "bundle install" to install the extra gems added. To view and navigate Scrippstagram run: bin/rails server . Then proceed to the website http://localhost:3000. 
 
 **Key Issues:**
 Bootstrap formatting was a large issue that took intensive combing through bootstrap documentation to figure out where in the installation process we went wrong. Getting the posts to appear in the correct order(most recent on top) posed a challenge as we were unsure where to change the order.
@@ -28,6 +28,9 @@ Plataformatec. “Plataformatec/simple_form.” Simple_Form, 1 Feb. 2018, github
 Ruby Documentation, www.devwalks.com/lets-build-instagram-in-rails-part-1/.
 “Ruby.” Documentation, www.ruby-lang.org/en/documentation/.
 Twbs. “Bootstrap-Sass.” GitHub, 1 Nov. 2017, github.com/twbs/bootstrap-sass.
+“Bootstrap Navigation Bar.” w3schools, www.w3schools.com/bootstrap/bootstrap_navbar.asp.
+“Getting Started with Rails.” guides.rubyonrails.org, guides.rubyonrails.org/getting_started.html.
+
 
 Gems Used:
 Bootstrap-Sass
